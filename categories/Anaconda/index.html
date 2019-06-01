@@ -189,12 +189,15 @@
 
         <p class="article-excerpt">
             
-创建环境 create -n tf2.0 python123452. #### 查看现有环境      ```conda info --envs```  3. #### 激活环境
- activate tf2.0         # used in Anaconda Prompt  
-or source activate tf2.0  # used in Linux os `
+创建环境conda create -n tf2.0 python=3.6  
 
+查看现有环境conda info --envs  
 
+激活环境source activate tf2.0  
 
+删除环境conda remove -n tf2.0 --all  
+
+修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove
         </p>
     </div>
 </article>

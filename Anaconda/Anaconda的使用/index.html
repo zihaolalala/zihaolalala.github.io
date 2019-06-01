@@ -12,18 +12,18 @@
     
         <meta name="keywords" content="Anaconda">
     
-    <meta name="description" content="创建环境 create -n tf2.0 python123452. #### 查看现有环境      ```conda info --envs```  3. #### 激活环境  activate tf2.0         # used in Anaconda Prompt   or source activate tf2.0  # used in Linux os `">
+    <meta name="description" content="创建环境conda create -n tf2.0 python=3.6    查看现有环境conda info --envs    激活环境source activate tf2.0    删除环境conda remove -n tf2.0 --all    修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove">
 <meta name="keywords" content="Anaconda">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Anaconda的使用">
 <meta property="og:url" content="https://zihaolalala.github.io/Anaconda/Anaconda的使用/index.html">
 <meta property="og:site_name" content="zihaolalala的博客">
-<meta property="og:description" content="创建环境 create -n tf2.0 python123452. #### 查看现有环境      ```conda info --envs```  3. #### 激活环境  activate tf2.0         # used in Anaconda Prompt   or source activate tf2.0  # used in Linux os `">
+<meta property="og:description" content="创建环境conda create -n tf2.0 python=3.6    查看现有环境conda info --envs    激活环境source activate tf2.0    删除环境conda remove -n tf2.0 --all    修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-31T13:49:04.054Z">
+<meta property="og:updated_time" content="2019-06-01T11:45:17.057Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Anaconda的使用">
-<meta name="twitter:description" content="创建环境 create -n tf2.0 python123452. #### 查看现有环境      ```conda info --envs```  3. #### 激活环境  activate tf2.0         # used in Anaconda Prompt   or source activate tf2.0  # used in Linux os `">
+<meta name="twitter:description" content="创建环境conda create -n tf2.0 python=3.6    查看现有环境conda info --envs    激活环境source activate tf2.0    删除环境conda remove -n tf2.0 --all    修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove">
     
 
     
@@ -174,9 +174,26 @@
         
         <div class="article-entry" itemprop="articleBody">
             <ol>
-<li><h4><span id="创建环境">创建环境</span></h4> <figure class="highlight plain"><figcaption><span>create -n tf2.0 python</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">2. #### 查看现有环境  </span><br><span class="line">    ```conda info --envs```  </span><br><span class="line"></span><br><span class="line">3. #### 激活环境</span><br></pre></td></tr></table></figure>
-<p> activate tf2.0         # used in Anaconda Prompt  </p>
-<h1><span id="or">or</span></h1><p> source activate tf2.0  # used in Linux os<br> <code>`</code></p>
+<li><h4><span id="创建环境">创建环境</span></h4><p><code>conda create -n tf2.0 python=3.6</code>  </p>
+</li>
+<li><h4><span id="查看现有环境">查看现有环境</span></h4><p><code>conda info --envs</code>  </p>
+</li>
+<li><h4><span id="激活环境">激活环境</span></h4><p><code>source activate tf2.0</code>  </p>
+</li>
+<li><h4><span id="删除环境">删除环境</span></h4><p><code>conda remove -n tf2.0 --all</code>  </p>
+</li>
+<li><h4><span id="修改环境名">修改环境名</span></h4><p><code>conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名</code><br><code>conda remove -n tf2.0 --all  # 删除原有环境</code>  </p>
+</li>
+<li><h4><span id="搜索包">搜索包</span></h4><p><code>pip search tensorflow-gpu</code><br><code>conda search tensorflow-gpu</code>  </p>
+</li>
+<li><h4><span id="安装与卸载包">安装与卸载包</span></h4><p><code># pip</code><br><code>pip install tensorflow-gpu==2.0.0-alpha0</code><br><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==2.0.0-alpha0  # 镜像下载</code><br><code>pip uinstall tensorflow-gpu</code>  </p>
+</li>
+</ol>
+<p><code># conda</code><br><code>conda install tensorflow-gpu</code><br><code>conda uinstall tensorflow-gpu</code> </p>
+<ol start="8">
+<li><h4><span id="添加anaconda的tuna镜像">添加Anaconda的TUNA镜像</span></h4><p><code>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</code>   </p>
+</li>
+<li><h4><span id="设置搜索时显示通道地址">设置搜索时显示通道地址</span></h4><p><code>conda config --set show_channel_urls yes</code></p>
 </li>
 </ol>
 
@@ -186,7 +203,7 @@
 
 
 
-    <a data-url="https://zihaolalala.github.io/Anaconda/Anaconda的使用/" data-id="cjwc58rcj00000kc5m4fexmrg" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://zihaolalala.github.io/Anaconda/Anaconda的使用/" data-id="cjwdg42w100052gc5c0hi5rtv" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -262,16 +279,19 @@
         "genre": "Anaconda",
         "datePublished": "2019-05-31",
         "dateCreated": "2019-05-31",
-        "dateModified": "2019-05-31",
+        "dateModified": "2019-06-01",
         "url": "https://zihaolalala.github.io/Anaconda/Anaconda的使用/",
         "description": "
-创建环境 create -n tf2.0 python123452. #### 查看现有环境      ```conda info --envs```  3. #### 激活环境
- activate tf2.0         # used in Anaconda Prompt  
-or source activate tf2.0  # used in Linux os `
+创建环境conda create -n tf2.0 python=3.6  
 
+查看现有环境conda info --envs  
 
-"
-        "wordCount": 62
+激活环境source activate tf2.0  
+
+删除环境conda remove -n tf2.0 --all  
+
+修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove"
+        "wordCount": 85
     }
 </script>
 
@@ -369,8 +389,8 @@ or source activate tf2.0  # used in Linux os `
     <h3 class="widget-title">目录</h3>
     <div class="widget">
         <div id="toc" class="toc-article">
-            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">创建环境</span></a></li></ol><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number"></span> <span class="toc-text">or</span></a>
-        </li></div>
+            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">创建环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">查看现有环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text">激活环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">4.</span> <span class="toc-text">删除环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">5.</span> <span class="toc-text">修改环境名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">6.</span> <span class="toc-text">搜索包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">7.</span> <span class="toc-text">安装与卸载包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">8.</span> <span class="toc-text">添加Anaconda的TUNA镜像</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">9.</span> <span class="toc-text">设置搜索时显示通道地址</span></a></li></ol>
+        </div>
     </div>
 </div>
 
