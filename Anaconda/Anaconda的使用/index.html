@@ -12,18 +12,20 @@
     
         <meta name="keywords" content="Anaconda">
     
-    <meta name="description" content="创建环境conda create -n tf2.0 python=3.6    查看现有环境conda info --envs    激活环境source activate tf2.0    删除环境conda remove -n tf2.0 --all    修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove">
+    <meta name="description" content="创建环境create -n tf2.0 python12345678910112. #### 查看现有环境  ```conda info --envs```  3. #### 激活环境  ```source activate tf2.0```  4. #### 删除环境  ```conda remove -n tf2.0 --all```  5. #### 修改环境名   conda crea">
 <meta name="keywords" content="Anaconda">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Anaconda的使用">
 <meta property="og:url" content="https://zihaolalala.github.io/Anaconda/Anaconda的使用/index.html">
 <meta property="og:site_name" content="zihaolalala的博客">
-<meta property="og:description" content="创建环境conda create -n tf2.0 python=3.6    查看现有环境conda info --envs    激活环境source activate tf2.0    删除环境conda remove -n tf2.0 --all    修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove">
+<meta property="og:description" content="创建环境create -n tf2.0 python12345678910112. #### 查看现有环境  ```conda info --envs```  3. #### 激活环境  ```source activate tf2.0```  4. #### 删除环境  ```conda remove -n tf2.0 --all```  5. #### 修改环境名   conda crea">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-01T11:45:17.057Z">
+<meta property="og:image" content="https://zihaolalala.github.io/Anaconda/Anaconda的使用/1.png">
+<meta property="og:updated_time" content="2019-06-01T11:54:55.947Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Anaconda的使用">
-<meta name="twitter:description" content="创建环境conda create -n tf2.0 python=3.6    查看现有环境conda info --envs    激活环境source activate tf2.0    删除环境conda remove -n tf2.0 --all    修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove">
+<meta name="twitter:description" content="创建环境create -n tf2.0 python12345678910112. #### 查看现有环境  ```conda info --envs```  3. #### 激活环境  ```source activate tf2.0```  4. #### 删除环境  ```conda remove -n tf2.0 --all```  5. #### 修改环境名   conda crea">
+<meta name="twitter:image" content="https://zihaolalala.github.io/Anaconda/Anaconda的使用/1.png">
     
 
     
@@ -173,28 +175,20 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <ol>
-<li><h4><span id="创建环境">创建环境</span></h4><p><code>conda create -n tf2.0 python=3.6</code>  </p>
-</li>
-<li><h4><span id="查看现有环境">查看现有环境</span></h4><p><code>conda info --envs</code>  </p>
-</li>
-<li><h4><span id="激活环境">激活环境</span></h4><p><code>source activate tf2.0</code>  </p>
-</li>
-<li><h4><span id="删除环境">删除环境</span></h4><p><code>conda remove -n tf2.0 --all</code>  </p>
-</li>
-<li><h4><span id="修改环境名">修改环境名</span></h4><p><code>conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名</code><br><code>conda remove -n tf2.0 --all  # 删除原有环境</code>  </p>
-</li>
-<li><h4><span id="搜索包">搜索包</span></h4><p><code>pip search tensorflow-gpu</code><br><code>conda search tensorflow-gpu</code>  </p>
-</li>
-<li><h4><span id="安装与卸载包">安装与卸载包</span></h4><p><code># pip</code><br><code>pip install tensorflow-gpu==2.0.0-alpha0</code><br><code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==2.0.0-alpha0  # 镜像下载</code><br><code>pip uinstall tensorflow-gpu</code>  </p>
+            <p><img src="/Anaconda/Anaconda的使用/1.png" alt="Anaconda"></p>
+<ol>
+<li><h4><span id="创建环境">创建环境</span></h4><figure class="highlight plain"><figcaption><span>create -n tf2.0 python</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">2. #### 查看现有环境  </span><br><span class="line">```conda info --envs```  </span><br><span class="line"></span><br><span class="line">3. #### 激活环境  </span><br><span class="line">```source activate tf2.0```  </span><br><span class="line"></span><br><span class="line">4. #### 删除环境  </span><br><span class="line">```conda remove -n tf2.0 --all```  </span><br><span class="line"></span><br><span class="line">5. #### 修改环境名</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<p><code># conda</code><br><code>conda install tensorflow-gpu</code><br><code>conda uinstall tensorflow-gpu</code> </p>
-<ol start="8">
-<li><h4><span id="添加anaconda的tuna镜像">添加Anaconda的TUNA镜像</span></h4><p><code>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/</code>   </p>
-</li>
-<li><h4><span id="设置搜索时显示通道地址">设置搜索时显示通道地址</span></h4><p><code>conda config --set show_channel_urls yes</code></p>
-</li>
+<p>conda create -n tf1.8 –clone tf2.0  # 克隆原有环境，起新环境名<br>conda remove -n tf2.0 –all  # 删除原有环境<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">6. #### 搜索包</span><br></pre></td></tr></table></figure></p>
+<p>pip search tensorflow-gpu<br>conda search tensorflow-gpu<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">7. #### 安装与卸载包</span><br></pre></td></tr></table></figure></p>
+<h1><span id="pip">pip</span></h1><p>pip install tensorflow-gpu==2.0.0-alpha0<br>pip install -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple" target="_blank" rel="noopener">https://pypi.tuna.tsinghua.edu.cn/simple</a> tensorflow-gpu==2.0.0-alpha0  # 镜像下载<br>pip uinstall tensorflow-gpu</p>
+<h1><span id="conda">conda</span></h1><p>conda install tensorflow-gpu<br>conda uinstall tensorflow-gpu</p>
+<pre><code>
+8. #### 添加Anaconda的TUNA镜像  
+```conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+</code></pre><ol start="9">
+<li><h4><span id="设置搜索时显示通道地址">设置搜索时显示通道地址</span></h4><code>conda config --set show_channel_urls yes</code></li>
 </ol>
 
         </div>
@@ -203,7 +197,7 @@
 
 
 
-    <a data-url="https://zihaolalala.github.io/Anaconda/Anaconda的使用/" data-id="cjwdg42w100052gc5c0hi5rtv" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://zihaolalala.github.io/Anaconda/Anaconda的使用/" data-id="cjwudocpr000524c5eeli6lzb" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -274,7 +268,7 @@
             "name": "zihaolalala"
         },
         "headline": "Anaconda的使用",
-        "image": "https://zihaolalala.github.io",
+        "image": "https://zihaolalala.github.io/Anaconda/Anaconda的使用/1.png",
         "keywords": "Anaconda",
         "genre": "Anaconda",
         "datePublished": "2019-05-31",
@@ -282,16 +276,12 @@
         "dateModified": "2019-06-01",
         "url": "https://zihaolalala.github.io/Anaconda/Anaconda的使用/",
         "description": "
-创建环境conda create -n tf2.0 python=3.6  
 
-查看现有环境conda info --envs  
+创建环境create -n tf2.0 python12345678910112. #### 查看现有环境  ```conda info --envs```  3. #### 激活环境  ```source activate tf2.0```  4. #### 删除环境  ```conda remove -n tf2.0 --all```  5. #### 修改环境名
 
-激活环境source activate tf2.0  
 
-删除环境conda remove -n tf2.0 --all  
-
-修改环境名conda create -n tf1.8 --clone tf2.0  # 克隆原有环境，起新环境名conda remove"
-        "wordCount": 85
+conda crea"
+        "wordCount": 134
     }
 </script>
 
@@ -371,6 +361,16 @@
         
 <nav id="article-nav">
     
+        <a href="/null/git常用命令/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">下一篇</strong>
+        <p class="article-nav-title">
+        
+            git常用命令
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
     
         <a href="/Tensorflow/Ubuntu16.04安装Tensorflow2.0/" id="article-nav-older" class="article-nav-link-wrap">
         <strong class="article-nav-caption">上一篇</strong>
@@ -389,8 +389,8 @@
     <h3 class="widget-title">目录</h3>
     <div class="widget">
         <div id="toc" class="toc-article">
-            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">创建环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">查看现有环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text">激活环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">4.</span> <span class="toc-text">删除环境</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">5.</span> <span class="toc-text">修改环境名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">6.</span> <span class="toc-text">搜索包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">7.</span> <span class="toc-text">安装与卸载包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">8.</span> <span class="toc-text">添加Anaconda的TUNA镜像</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">9.</span> <span class="toc-text">设置搜索时显示通道地址</span></a></li></ol>
-        </div>
+            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">创建环境</span></a></li></ol><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number"></span> <span class="toc-text">pip</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number"></span> <span class="toc-text">conda</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">设置搜索时显示通道地址</span></a></li></ol>
+        </li></div>
     </div>
 </div>
 
@@ -405,30 +405,10 @@
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/Anaconda/Anaconda的使用/" class="thumbnail">
+                            <a href="/MechineLearning/推荐系统——Wipe-and-Deep模型/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Anaconda/">Anaconda</a></p>
-                            <p class="item-title"><a href="/Anaconda/Anaconda的使用/" class="title">Anaconda的使用</a></p>
-                            <p class="item-date"><time datetime="2019-05-31T13:39:40.000Z" itemprop="datePublished">2019-05-31</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/Tensorflow/Ubuntu16.04安装Tensorflow2.0/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/Tensorflow/Ubuntu16.04安装Tensorflow2.0/使用hexo搭建个人博客/2.png)" alt="Ubuntu16.04安装Tensorflow2.0" class="thumbnail-image"></span>
+        <span style="background-image:url(/MechineLearning/推荐系统——Wipe-and-Deep模型/Wipe-and-Deep-Model.png)" alt="推荐系统——Wipe-and-Deep模型" class="thumbnail-image"></span>
     
     
 </a>
@@ -436,19 +416,79 @@
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/Tensorflow/">Tensorflow</a></p>
-                            <p class="item-title"><a href="/Tensorflow/Ubuntu16.04安装Tensorflow2.0/" class="title">Ubuntu16.04安装Tensorflow2.0</a></p>
-                            <p class="item-date"><time datetime="2019-05-31T12:49:50.000Z" itemprop="datePublished">2019-05-31</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/MechineLearning/">MechineLearning</a></p>
+                            <p class="item-title"><a href="/MechineLearning/推荐系统——Wipe-and-Deep模型/" class="title">推荐系统——Wipe-and-Deep模型</a></p>
+                            <p class="item-date"><time datetime="2019-06-13T07:54:57.000Z" itemprop="datePublished">2019-06-13</time></p>
                         </div>
                     </li>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/null/TCP三次握手/" class="thumbnail">
+                            <a href="/MechineLearning/稀疏特征与稠密特征的优缺点/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(/MechineLearning/稀疏特征与稠密特征的优缺点/图像/纸上得来终觉浅.jpg)" alt="稀疏特征与稠密特征的优缺点" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/MechineLearning/">MechineLearning</a></p>
+                            <p class="item-title"><a href="/MechineLearning/稀疏特征与稠密特征的优缺点/" class="title">稀疏特征与稠密特征的优缺点</a></p>
+                            <p class="item-date"><time datetime="2019-06-13T07:37:02.000Z" itemprop="datePublished">2019-06-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/MechineLearning/如何缓解梯度消失/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/MechineLearning/如何缓解梯度消失/图像/纸上得来终觉浅.jpg)" alt="如何缓解梯度消失" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/MechineLearning/">MechineLearning</a></p>
+                            <p class="item-title"><a href="/MechineLearning/如何缓解梯度消失/" class="title">如何缓解梯度消失</a></p>
+                            <p class="item-date"><time datetime="2019-06-12T14:22:18.000Z" itemprop="datePublished">2019-06-12</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/python/使用服务器上的jupyter notebook环境/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/python/使用服务器上的jupyter)" alt="使用服务器上的jupyter notebook环境" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/python/">python</a></p>
+                            <p class="item-title"><a href="/python/使用服务器上的jupyter notebook环境/" class="title">使用服务器上的jupyter notebook环境</a></p>
+                            <p class="item-date"><time datetime="2019-06-11T09:59:47.000Z" itemprop="datePublished">2019-06-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/null/git常用命令/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/null/git常用命令/1.png)" alt="git常用命令" class="thumbnail-image"></span>
     
     
 </a>
@@ -457,48 +497,8 @@
                         
                         <div class="item-inner">
                             <p class="item-category"></p>
-                            <p class="item-title"><a href="/null/TCP三次握手/" class="title"></a></p>
-                            <p class="item-date"><time datetime="2019-03-19T11:27:38.840Z" itemprop="datePublished">2019-03-19</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/网络编程/JAVA并发编程/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/JAVA/">JAVA</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/网络编程/">网络编程</a></p>
-                            <p class="item-title"><a href="/网络编程/JAVA并发编程/" class="title">JAVA并发编程</a></p>
-                            <p class="item-date"><time datetime="2019-03-19T05:59:42.000Z" itemprop="datePublished">2019-03-19</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/object-detection/目标检测算法效果对比/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/object-detection/目标检测算法效果对比/1.png)" alt="目标检测算法效果对比" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/deep-learning/">deep learning</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/object-detection/">object detection</a></p>
-                            <p class="item-title"><a href="/object-detection/目标检测算法效果对比/" class="title">目标检测算法效果对比</a></p>
-                            <p class="item-date"><time datetime="2019-03-04T14:06:50.000Z" itemprop="datePublished">2019-03-04</time></p>
+                            <p class="item-title"><a href="/null/git常用命令/" class="title">git常用命令</a></p>
+                            <p class="item-date"><time datetime="2019-06-01T12:15:28.000Z" itemprop="datePublished">2019-06-01</time></p>
                         </div>
                     </li>
                 
@@ -511,7 +511,7 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">分类</h3>
         <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Anaconda/">Anaconda</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JAVA/">JAVA</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tensorflow/">Tensorflow</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/deep-learning/">deep learning</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/object-detection/">object detection</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网络编程/">网络编程</a><span class="category-list-count">2</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Anaconda/">Anaconda</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JAVA/">JAVA</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/MechineLearning/">MechineLearning</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tensorflow/">Tensorflow</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/deep-learning/">deep learning</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/object-detection/">object detection</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/python/">python</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/网络编程/">网络编程</a><span class="category-list-count">2</span></li></ul>
         </div>
     </div>
 
@@ -521,7 +521,7 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">归档</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">二月 2019</a><span class="archive-list-count">2</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">六月 2019</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">五月 2019</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">二月 2019</a><span class="archive-list-count">2</span></li></ul>
         </div>
     </div>
 
@@ -531,7 +531,7 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">标签</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Anaconda/">Anaconda</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Concurrent/">Concurrent</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA/">JAVA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tensorflow/">Tensorflow</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/deep-learning/">deep learning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/object-detection/">object detection</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/socket/">socket</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tcp/">tcp</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客/">博客</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Anaconda/">Anaconda</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Concurrent/">Concurrent</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA/">JAVA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tensorflow/">Tensorflow</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/deep-learning/">deep learning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jupyter-notebook/">jupyter notebook</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/object-detection/">object detection</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/socket/">socket</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tcp/">tcp</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客/">博客</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -541,7 +541,7 @@
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
-            <a href="/tags/Anaconda/" style="font-size: 10px;">Anaconda</a> <a href="/tags/Concurrent/" style="font-size: 10px;">Concurrent</a> <a href="/tags/JAVA/" style="font-size: 10px;">JAVA</a> <a href="/tags/Tensorflow/" style="font-size: 10px;">Tensorflow</a> <a href="/tags/deep-learning/" style="font-size: 10px;">deep learning</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/object-detection/" style="font-size: 10px;">object detection</a> <a href="/tags/socket/" style="font-size: 10px;">socket</a> <a href="/tags/tcp/" style="font-size: 10px;">tcp</a> <a href="/tags/博客/" style="font-size: 10px;">博客</a>
+            <a href="/tags/Anaconda/" style="font-size: 10px;">Anaconda</a> <a href="/tags/Concurrent/" style="font-size: 10px;">Concurrent</a> <a href="/tags/JAVA/" style="font-size: 10px;">JAVA</a> <a href="/tags/Tensorflow/" style="font-size: 10px;">Tensorflow</a> <a href="/tags/deep-learning/" style="font-size: 10px;">deep learning</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/jupyter-notebook/" style="font-size: 10px;">jupyter notebook</a> <a href="/tags/object-detection/" style="font-size: 10px;">object detection</a> <a href="/tags/socket/" style="font-size: 10px;">socket</a> <a href="/tags/tcp/" style="font-size: 10px;">tcp</a> <a href="/tags/博客/" style="font-size: 10px;">博客</a>
         </div>
     </div>
 
